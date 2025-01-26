@@ -1,0 +1,13 @@
+#SearchBarDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#InputSearchBar {
+    width: 736px;
+    height: 54px;
+    background-color: #262626;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
