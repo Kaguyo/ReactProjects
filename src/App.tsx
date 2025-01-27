@@ -1,12 +1,12 @@
 import './App.css'
 import { Header } from './Header'
-import { SearchBar } from './SearchBar'
+import { AddTaskDiv } from './AddTaskDiv'
 
 export function App() {
   return (
     <>
       <Header/>
-      <SearchBar/>
+      <AddTaskDiv/>
     </>
   )
 }

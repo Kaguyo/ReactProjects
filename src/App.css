@@ -11,6 +11,11 @@
   font-weight: 400 800; /* Regular weight */
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   background-color: #1a1a1a;
 }
