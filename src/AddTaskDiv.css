@@ -1,10 +1,10 @@
-#SearchBarDiv {
+#searchBarDiv {
     display: flex;
     justify-content: center;
     gap: 8px;
 }
 
-#InputSearchBar {
+#inputSearchBar {
     width: 638px;
     height: 54px;
     background-color: #262626;
@@ -14,9 +14,11 @@
     font-family: 'Inter';
     border: 1px;
     border-radius: 8px;
+    outline: none;
+    color: white;
 } 
 
-#CreateTaskBtn {
+#createTaskBtn {
     width: 90px;
     height: 52px;
     background: #1E6F9F;
@@ -25,8 +27,13 @@
     gap: 8px;
     font-weight: 700;
     color: #F2F2F2;
+    border: 0;
 }
 
+#createTaskBtn:hover {
+    cursor: pointer;
+    background-color: #185980;
+}
 /*#plus {
     
 }
