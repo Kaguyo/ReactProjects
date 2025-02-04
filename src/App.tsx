@@ -1,8 +1,9 @@
 import './App.css'
+import { useState } from 'react'
 import { Header } from './Header'
 import { AddTaskDiv } from './AddTaskDiv'
-import { Lista } from './Lista'
-import { useState } from 'react'
+import { Estatisticas } from './Estatisticas'
+import { Lista } from  './Lista'
 
 interface TarefasType {
   id : number
@@ -24,7 +25,8 @@ export function App() {
     <>
       <Header/>
       <AddTaskDiv addTask={addTask} setTarefaAtual={setTarefaAtual}/>
-      <Lista totalConcluido={totalConcluido} totalCriado={totalCriado}/>
+      <Estatisticas totalConcluido={totalConcluido} totalCriado={totalCriado}/>
+      <Lista/>
     </>
   )
 }
